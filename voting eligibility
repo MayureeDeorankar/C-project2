@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	char name[20];
+	cout<<"Enter your Name ";
+	cin>>name;
+	cout<<"Hello  "<<name<<", How old are You? ";
+	int age;
+	cin>>age;
+	if(age>=18)
+	cout<<"That's great Now you are ELIGIBLE to vote";
+	else
+	{
+	cout<<"Sorry , You are NOT ELIGIBLE to vote";
+	int y;
+	y = 18 - age;
+	cout<<"\nYou have to wait for "<<y<<" Years to vote";
+    }
+	
+}
